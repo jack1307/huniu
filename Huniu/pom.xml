@@ -12,19 +12,14 @@
         <module>huniu-common</module>
         <module>huniu-modules</module>
         <module>huniu-visual</module>
-        <module>huniu-ui</module>
         <module>huniu-gateway</module>
-        <module>huniu-modules/huniu-system</module>
-        <module>huniu-modules/huniu-gen</module>
-        <module>huniu-modules/huniu-job</module>
-        <module>huniu-modules/huniu-file</module>
 
     </modules>
     <name>Huniu</name>
     <description>Huniu</description>
 
     <properties>
-        <huniu.version>0.0.1</huniu.version>
+        <huniu.version>0.0.1-SNAPSHOT</huniu.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -195,60 +190,61 @@
             </dependency>
 
             <!-- 核心模块 -->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-common-core</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+            <dependency>
 
-<!--            &lt;!&ndash; 接口模块 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-common-swagger</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-common-core</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
 
-<!--            &lt;!&ndash; 安全模块 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-common-security</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+            <!-- 接口模块 -->
+            <dependency>
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-common-swagger</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
 
-<!--            &lt;!&ndash; 权限范围 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-common-datascope</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+            <!-- 安全模块 -->
+            <dependency>
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-common-security</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
 
-<!--            &lt;!&ndash; 多数据源 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-common-datasource</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+            <!-- 权限范围 -->
+            <dependency>
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-common-datascope</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
 
-<!--            &lt;!&ndash; 日志记录 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-common-log</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+            <!-- 多数据源 -->
+            <dependency>
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-common-datasource</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
 
-<!--            &lt;!&ndash; 缓存服务 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-common-redis</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+            <!-- 日志记录 -->
+            <dependency>
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-common-log</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
 
-<!--            &lt;!&ndash; 系统接口 &ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>com.miaowu</groupId>-->
-<!--                <artifactId>huniu-api-system</artifactId>-->
-<!--                <version>${huniu.version}</version>-->
-<!--            </dependency>-->
+            <!-- 缓存服务 -->
+            <dependency>
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-common-redis</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
+
+            <!-- 系统接口 -->
+            <dependency>
+                <groupId>com.miaowu</groupId>
+                <artifactId>huniu-api-system</artifactId>
+                <version>${huniu.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
