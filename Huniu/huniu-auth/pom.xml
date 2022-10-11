@@ -12,6 +12,16 @@
     <artifactId>huniu-auth</artifactId>
     <packaging>pom</packaging>
     <name>huniu-auth</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.miaowu</groupId>
+            <artifactId>huniu-common-security</artifactId>
+        </dependency>
+    </dependencies>
 
 
 </project>
