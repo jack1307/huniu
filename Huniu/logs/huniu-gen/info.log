@@ -1,0 +1,27 @@
+11:12:53.420 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+11:12:53.426 [main] INFO  c.m.HuniuGenApplication - [logStarting,55] - Starting HuniuGenApplication using Java 1.8.0_221 on wangyundeMacBook-Pro.local with PID 11011 (/Users/wangyun/Documents/ideaProject/Huniu/huniu-modules/huniu-gen/target/classes started by wangyun in /Users/wangyun/Documents/ideaProject/Huniu)
+11:12:53.427 [main] INFO  c.m.HuniuGenApplication - [logStartupProfileInfo,640] - The following 1 profile is active: "dev"
+12:30:02.117 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+12:30:02.122 [main] INFO  c.m.HuniuGenApplication - [logStarting,55] - Starting HuniuGenApplication using Java 1.8.0_221 on wangyundeMacBook-Pro.local with PID 30258 (/Users/wangyun/Documents/ideaProject/Huniu/huniu-modules/huniu-gen/target/classes started by wangyun in /Users/wangyun/Documents/ideaProject/Huniu)
+12:30:02.123 [main] INFO  c.m.HuniuGenApplication - [logStartupProfileInfo,640] - The following 1 profile is active: "dev"
+12:30:04.501 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+12:30:04.502 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+12:30:04.502 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+12:30:04.713 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+12:30:04.868 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+14:08:11.835 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+14:08:11.840 [main] INFO  c.m.HuniuGenApplication - [logStarting,55] - Starting HuniuGenApplication using Java 1.8.0_221 on wangyundeMacBook-Pro.local with PID 53905 (/Users/wangyun/Documents/ideaProject/Huniu/huniu-modules/huniu-gen/target/classes started by wangyun in /Users/wangyun/Documents/ideaProject/Huniu)
+14:08:11.841 [main] INFO  c.m.HuniuGenApplication - [logStartupProfileInfo,640] - The following 1 profile is active: "dev"
+14:08:14.448 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+14:08:14.449 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+14:08:14.449 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+14:08:14.610 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+14:08:14.764 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+15:31:14.685 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+15:31:14.704 [main] INFO  c.m.HuniuGenApplication - [logStarting,55] - Starting HuniuGenApplication using Java 1.8.0_221 on wangyundeMacBook-Pro.local with PID 74582 (/Users/wangyun/Documents/ideaProject/Huniu/huniu-modules/huniu-gen/target/classes started by wangyun in /Users/wangyun/Documents/ideaProject/Huniu)
+15:31:14.706 [main] INFO  c.m.HuniuGenApplication - [logStartupProfileInfo,640] - The following 1 profile is active: "dev"
+15:31:17.386 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8080"]
+15:31:17.387 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+15:31:17.387 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.65]
+15:31:17.514 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+15:31:17.633 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]

@@ -1,8 +1,6 @@
 package com.miaowu;
 
-import com.miaowu.common.security.annotation.EnableCustomConfig;
-import com.miaowu.common.security.annotation.EnableHnFeignClients;
-import com.miaowu.common.swagger.annotation.EnableCustomSwagger2;
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,16 +8,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Hello world!
  *
  */
-@EnableCustomConfig
-@EnableCustomSwagger2
-@EnableHnFeignClients
+@EnableAdminServer
 @SpringBootApplication
-public class HuniuSystemApplication
+public class HuniuMonitorApplication
 {
     public static void main( String[] args )
     {
-
-        SpringApplication.run(HuniuSystemApplication.class, args);
+        SpringApplication.run(HuniuMonitorApplication.class, args);
         System.out.println("(♥◠‿◠)ﾉﾞ  定时任务服务启动成功   ლ(´ڡ`ლ)ﾞ  \n" +
                 "   / __                __     ( )         \n" +
                 "  //   ) ) //   / / //   ) ) / / //   / / \n" +

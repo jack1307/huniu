@@ -7,9 +7,6 @@ spring:
   application:
     # 应用名称
     name: huniu-auth
-  profiles:
-    # 环境配置
-    active: dev
   cloud:
     nacos:
       discovery:
@@ -23,3 +20,7 @@ spring:
         # 共享配置
         shared-configs:
           - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+  config:
+    activate:
+      # 环境配置
+      on-profile: dev

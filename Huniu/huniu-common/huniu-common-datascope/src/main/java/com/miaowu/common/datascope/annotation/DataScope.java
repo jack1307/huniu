@@ -1,17 +1,13 @@
 package com.miaowu.common.datascope.annotation;
 
+
+import java.lang.annotation.*;
+
 /**
  * @author Jack
  * @date 2022年10月19日
  */
 
-import java.lang.annotation.*;
-
-/**
- * 数据权限过滤注解
- *
- * @author ruoyi
- */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

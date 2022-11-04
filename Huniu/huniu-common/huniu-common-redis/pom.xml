@@ -19,7 +19,7 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
 
-        <!-- RuoYi Common Core-->
+        <!-- huniu Common Core-->
         <dependency>
             <groupId>com.miaowu</groupId>
             <artifactId>huniu-common-core</artifactId>
